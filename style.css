@@ -1,0 +1,150 @@
+body{
+	background-color: #CACACA;
+	margin: 0px;
+	font-family: Verdana;
+	color:#697e83;
+	font-size: 14px;
+}
+#wrapper{
+	margin:0 auto;
+	width:85%;
+	background:#FFFFFF;
+	border:1px solid #878e63;
+	box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
+}
+header {
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	background-color: #697e83;
+}
+nav ul{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main{
+	margin-top: 15px;
+}
+h1{
+	font-family: 'Alex Brush', cursive;
+	letter-spacing: .5px;
+	font-size:60px;
+	margin:0;
+	padding: 10px 0 0 10px;
+	color:#fff;
+}
+h2{
+	font-size: 27px;
+	margin: 0;
+	text-transform:uppercase;
+	color: #000; 
+}
+h3{
+	font-size: 14px;
+	margin: 0;
+	padding: 5px;
+	text-transform:uppercase;
+	color: #000;
+	letter-spacing: .5px; 
+}
+p{
+	margin: 10px 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+.subscribe{
+	background-color: #fff;
+	padding: 15px;
+	width: 30%;
+	float: left;
+}
+footer{
+	background-color: #697e83;
+	color: #fff;
+	height: 100px;
+	padding: 30px;
+	text-align: center;
+}
+aside{
+	padding: 10px 4px 10px 24px;
+	margin-left: 15px;
+	float: left;
+	width: 20%;
+}
+section{
+	width: 75%;
+	float: right;
+	padding:6px 4px 6px 8px;
+	border-left: 1px solid #959592;
+
+}
+.sideleft{
+	padding: 0 5px 10px 5px;
+	width: 70%;
+	float: left;
+	border-right: 1px solid #959592;
+}
+.sideleft h2{
+	padding-bottom: 10px;
+
+}
+.sideright{
+	padding: 2px;
+	width: 28%;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+span{
+	font-weight: bold;
+}
+aside ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+aside ul li{
+	padding-bottom: 10px;
+}
+aside ul li a{
+	text-decoration: none;
+
+}
+input[type=submit]{
+	width: 110px;
+	padding: 13px;
+	border: 0;
+	cursor: pointer;
+	background-color:#697e83;
+	border-radius: 2px; 
+}
+input[type=text], [type=email]{
+	padding: 10px;
+	border-radius: 2px;
+}
+form{
+	padding-top: 15px;
+}
+/*----------------------------------Gallery Page-----------------------------------------*/
+.room{
+	width: 300px;
+	float: left;
+	padding: 0 0 15px 0;
+}
+.roomtext{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*--------------------------------- Contact Page---------------------------------------------*/
+label{
+	padding: 10px 20px;
+}
+#txtName, #email, #Phone, #select, #textarea{
+	margin: 10px;
+}
